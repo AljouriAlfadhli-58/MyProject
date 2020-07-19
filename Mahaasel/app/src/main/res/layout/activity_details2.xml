@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/listitem"
+        android:orientation="vertical"
+        tools:context=".details2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/white"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search here"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="50dp"/>
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/white">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="40dp"
+                android:text="المنتج:"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="80dp"
+                android:text="المنشأ:"
+                android:textColor="#020202"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="115dp"
+                android:text="الكمية:"
+                android:textColor="#050505"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="319dp"
+                android:layout_marginTop="150dp"
+                android:text="السعر:"
+                android:textColor="#0B0A0B"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="265dp"
+                android:layout_marginTop="45dp"
+                android:text="فلفل"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="85dp"
+                android:text="الكويت"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="265dp"
+                android:layout_marginTop="120dp"
+                android:text="2 كيلو"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="155dp"
+                android:text="2.500 د.ك"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="123dp"
+                android:layout_height="135dp"
+                app:srcCompat="@drawable/flfl"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="40dp"/>
+
+
+        <ImageView
+            android:id="@+id/buy1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_marginStart="180dp"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:layout_marginTop="440dp"
+            android:background="@drawable/white">
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="40dp"
+                android:text="المنتج:"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="80dp"
+                android:text="المنشأ:"
+                android:textColor="#020202"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="115dp"
+                android:text="الكمية:"
+                android:textColor="#050505"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="319dp"
+                android:layout_marginTop="150dp"
+                android:text="السعر:"
+                android:textColor="#0B0A0B"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="45dp"
+                android:text="باذنجان"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="83dp"
+                android:text="الكويت"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="265dp"
+                android:layout_marginTop="118dp"
+                android:text="2 كيلو"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="155dp"
+                android:text="2.500 د.ك"
+                android:textColor="#040304"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="113dp"
+                android:layout_height="92dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/eggplant" />
+
+
+            <ImageView
+                android:id="@+id/buy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginStart="180dp"
+                app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+        </RelativeLayout>
+    </RelativeLayout>

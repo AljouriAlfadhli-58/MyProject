@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2"
+    android:background="@color/colorPrimaryDark">
+
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="  Enter your username"
+        android:inputType="textPersonName"
+        android:textColor="#7E7878"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="245dp"
+        app:srcCompat="@drawable/usernname" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="  Enter your email"
+        android:inputType="textPersonName"
+        android:textColor="#7E7878"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="  Enter your password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="550dp"
+        app:srcCompat="@drawable/button"
+        android:layout_marginStart="300dp"/>
+
+    <ImageView
+        android:id="@+id/next1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="554dp"
+        android:enabled="false"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
+
+    <ImageView
+        android:id="@+id/emailimg"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/ic_baseline_alternate_email_24"
+        android:layout_marginTop="315dp"
+        android:layout_marginStart="40dp" />
+
+    <ImageView
+        android:id="@+id/passicon1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginStart="40dp"
+        app:srcCompat="@drawable/lock2" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/backkground">
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="90dp"
+            app:srcCompat="@drawable/circle" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="90dp"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
